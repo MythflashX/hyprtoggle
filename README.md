@@ -15,9 +15,10 @@ workspaces really fast like how I am used to in DWM. So I wrote this little scri
 ## 📁 Structure
 /.config/hyprland/
 ├── hyprtoggle.sh
+
 ├── prevwin
-├── README.md
-└── LICENSE (MIT or WTFPL or whatever you vibe with)
+
+└── README.md
 
 
 ## 📦 Installation
