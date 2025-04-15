@@ -27,4 +27,5 @@ Now you can switch between 2 workspace really really fast. xD
 
 # Requirements
 -hyprctl (comes with Hyprland)
+
 -jq (for parsing JSON output from hyprctl)
