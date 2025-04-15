@@ -7,5 +7,5 @@ switch=$prevwin
 hyprctl dispatch workspace $switch
 echo $curwin > ~/.config/hypr/prevwin
 
-# Switch to Previous Workspace with Alt + Tab (Like DWM)
+# Toggle between Two workspaces like DWM
 # by @Mytx
