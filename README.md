@@ -12,16 +12,24 @@ workspaces really fast like how I am used to in DWM. So I wrote this little scri
 - Minimal and efficient
 - No need to launch rofi/wofi just to jump between 2 places
 
+## 📁 Structure
+/.config/hyprland/
+├── hyprtoggle.sh
+├── prevwin
+├── README.md
+└── LICENSE (MIT or WTFPL or whatever you vibe with)
+
+
 ## 📦 Installation
 
-1. Save `toggle_workspace.sh` to somewhere like:
-~/.config/hypr/toggle_workspace.sh (preferably)
+1. Save `hyprtoggle.sh` & 'prevwin' to somewhere like:
+~/.config/hypr/hyprtoggle.sh (preferably)
 
 2. Make it executable
-chmod +x ~/.config/hypr/toggle_workspace.sh
+chmod +x ~/.config/hypr/hyprtoggle.sh
 
 3. Add this to your ~/.config/hypr/hyprland.conf:
-bind = Alt, Tab, exec, ~/.config/hypr/toggle_workspace.sh
+bind = Alt, Tab, exec, ~/.config/hypr/hyprtoggle.sh
 
 Now you can switch between 2 workspace really really fast. xD
 
